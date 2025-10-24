@@ -1,3 +1,8 @@
+.position{
+  width: 55%;
+  line-height: 2.0;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
