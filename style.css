@@ -10,7 +10,8 @@
   gap: 18px;
   background-color: transparent;
   padding: 10px;
-  position: sticky
+  position: sticky;
+  top: 0;
 }
 
 @font-face{
@@ -36,6 +37,11 @@
   color: rgb(255, 255, 255);
 }
 
+/* Ensure all links are visible if the background image/font fail to load */
+a {
+  color: rgb(255, 255, 255);
+}
+
 p{
   color: rgb(255, 255, 255);
   font-size: 15.5px;
@@ -57,9 +63,11 @@ h4{
 }
 
 body{
-    background-image: url("Images/Space.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    font-family: 'Computer', system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background-image: url("Images/Space.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  /* fallback color if background image is missing */
+  background-color: #0b1220;
+  font-family: 'Computer', system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
