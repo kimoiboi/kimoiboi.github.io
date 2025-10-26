@@ -63,7 +63,7 @@ h4{
 }
 
 body{
-  background-image: url("Images/Space.PNG");
+  background-image: url(Images/Space.PNG);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
