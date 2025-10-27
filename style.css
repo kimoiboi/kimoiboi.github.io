@@ -2,6 +2,15 @@
   width: 55%;
   line-height: 2.0;
 }
+.center-text{
+  text-align: center;
+}
+
+.center-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .navbar {
   display: flex;
@@ -37,7 +46,6 @@
   color: rgb(255, 255, 255);
 }
 
-/* Ensure all links are visible if the background image/font fail to load */
 a {
   color: rgb(255, 255, 255);
 }
@@ -67,7 +75,28 @@ body{
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  /* fallback color if background image is missing */
   background-color: #0b1220;
   font-family: 'Computer', system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  min-height: 100vh;
+}
+
+.resume-box{
+  display: flex;
+  background-color: rgb(36, 36, 36);
+  margin: 150px auto;
+  padding: 50px;
+  width: 480px;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxes-inside{
+  display: flex;
+  background-color: rgb(43, 42, 42);
+  padding: 11px;
+  margin: auto;
+  width: 170px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
 }
