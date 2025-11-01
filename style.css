@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .position{
   width: 55%;
   line-height: 2.0;
@@ -124,19 +128,26 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   border-bottom:2px ridge rgb(255, 255, 255);
 }
 
 .recent-post-box{
   display: flex;
+  flex-direction: column;
   border: 2px solid white;
   margin: auto;
-  padding: 25px;
-  height: 1000px;
+  padding: 10px;
+  height: 725px;
   width: 500px;
-  justify-content: center;
+  justify-content: top;
   align-items: top;
   gap: 10px;
   border-radius: 25px;
+}
+
+.contact-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top:2px ridge rgb(255, 255, 255);
 }
