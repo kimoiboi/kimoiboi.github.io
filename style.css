@@ -18,7 +18,7 @@
   justify-content: center;
   gap: 18px;
   background-color: transparent;
-  padding: 10px;
+  padding: 2px;
   position: sticky;
   top: 0;
 }
@@ -128,6 +128,15 @@ body{
   border-bottom:2px ridge rgb(255, 255, 255);
 }
 
-.recent-post-styling{
-
+.recent-post-box{
+  display: flex;
+  border: 2px solid white;
+  margin: auto;
+  padding: 25px;
+  height: 1000px;
+  width: 500px;
+  justify-content: center;
+  align-items: top;
+  gap: 10px;
+  border-radius: 25px;
 }
