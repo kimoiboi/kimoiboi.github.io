@@ -71,7 +71,7 @@ h4{
 }
 
 body{
-  background-image: url(Images/Space.PNG);
+  background-image: url(Images/Space.gif);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -85,9 +85,11 @@ body{
   background-color: rgb(36, 36, 36);
   margin: 150px auto;
   padding: 50px;
-  width: 480px;
+  width: 240px;
   justify-content: center;
   align-items: center;
+  gap: 10px;
+  border-radius: 25px;
 }
 
 .boxes-inside{
@@ -99,4 +101,16 @@ body{
   height: 60px;
   align-items: center;
   justify-content: center;
+}
+
+.gif-background{
+  background-image: url(Images/late-night-coding.gif);
+  background-size: cover;
+  background-position: center;
+  height: 225px;
+}
+.button-styling{
+  background-color: rgb(43, 42, 42);
+  color: white;
+  border-radius: 10px;
 }
