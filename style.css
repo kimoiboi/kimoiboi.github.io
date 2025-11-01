@@ -150,4 +150,5 @@ body{
   justify-content: center;
   align-items: center;
   border-top:2px ridge rgb(255, 255, 255);
+  padding: 30px;
 }
