@@ -153,6 +153,11 @@ body{
   padding: 30px;
 }
 
+.circle-border{
+  border: 2px solid white;
+  border-radius: 30px;
+}
+
 .contact-form{
   display: flex;
   flex-direction: column;
