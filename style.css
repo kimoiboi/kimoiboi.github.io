@@ -152,3 +152,25 @@ body{
   border-top:2px ridge rgb(255, 255, 255);
   padding: 30px;
 }
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  top: 70px;
+  background-color: rgb(36, 36, 36);
+}
+
+input{
+  background-color: rgb(36, 36, 36);
+  border-left: 1px solid black;
+  padding: 3px;
+  border-radius: 20px;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+
+}
