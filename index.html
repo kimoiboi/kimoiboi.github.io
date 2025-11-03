@@ -36,38 +36,39 @@
     </main>
 
     <div class ="contact-section" id ="contact-section">
-        <p class ="links">
             <a href="https://github.com/kimoiboi" style ="text-decoration: none;" target ="_blank" rel="noopener"><i class="fa fa-github" style="font-size: 41px; color: white; align-items: center;"></i></a>
             &nbsp;•&nbsp;
             <a href="https://www.linkedin.com/in/karim-elgendi-258145258/" style ="text-decoration: none;" target="_blank" rel="noopener"><i class='fab fa-linkedin' style='font-size: 41px; align-items: center;'></i></a>
             &nbsp;•&nbsp;
-            <a href="#" style ="text-decoration: none;"><i class="fa fa-envelope" style="font-size: 41px; color: white; align-items: center;"></i></a>
-        </p>
+            <div class ="email-icon">
+                <a href="#" style ="text-decoration: none;"><i class="fa fa-envelope" style="font-size: 41px; color: white; align-items: center;"></i></a>
+                <div class ="contact-form">
+                    <form>
+                        <p style ="font-size: 13px;">
+                            Howdy — I'll get back to you ASAP.
+                        </p>
+                        <div>
+                            <div>
+                                <div>
+                                    <label for ="userName">Name</label>
+                                    <input type ="text" name ="userName" placeholder ="Your name" autocomplete ="off" required>
+                                </div>
+                                <div>
+                                    <label for ="emailAddress">Email</label>
+                                    <input type ="text" name ="emailAddress" placeholder ="you@example.com" autocomplete ="off" required>
+                                </div>
+                            </div>
+                            <div>
+                                <label for ="sendMessage">Message</label>
+                                <textarea rows ="12" cols ="60" name ="sendMessage" placeholder ="Write note here..." autocomplete ="off" required></textarea>
+                                <br>
+                                <input type ="submit" value ="Send Message">
+                            </div>
+                        </div> 
+                    </form>
+                </div>
+            </div>
     </div>
-    
-    <div class ="contact-form">
-            <form>
-                <p style ="font-size: 13px;">
-                    Howdy — I'll get back to you ASAP.
-                </p>
-                <div>
-                    <div>
-                        <div>
-                            <label for ="userName">Name</label>
-                            <input type ="text" name ="userName" placeholder ="Your name" autocomplete ="off" required>
-                        </div>
-                        <div>
-                            <label for ="emailAddress">Email</label>
-                            <input type ="text" name ="emailAddress" placeholder ="you@example.com" autocomplete ="off" required>
-                        </div>
-                    </div>
-                    <div>
-                        <label for ="sendMessage">Message</label>
-                        <textarea rows ="12" cols ="60" name ="sendMessage" placeholder ="Write note here..." autocomplete ="off" required></textarea>
-                    </div>
-                </div> 
-            </form>
-        </div>
 
     <footer>
         <p style = "font-size: 10.7px; text-align: center;">&copy; 2025 Karim Elgendi. All rights reserved.</p>

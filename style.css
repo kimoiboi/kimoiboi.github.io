@@ -158,18 +158,31 @@ body{
   border-radius: 30px;
 }
 
+.email-icon{
+  position: relative;
+  display: inline-block;
+}
+
 .contact-form{
+  display: none;
+  position: absolute;
+  background-image: url(Images/late-night-coding.gif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  width: 42%;
+  opacity: 1;
+}
+
+.email-icon:hover .contact-form{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 42%;
-  background-image: url(Images/late-night-coding.gif);
   opacity: 0.72;
-  background-size: cover;
-  background-position: center;
-  border-radius: 25px;
 }
+
+
 
 input{
   background-color: transparent;
