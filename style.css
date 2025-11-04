@@ -89,7 +89,7 @@ body{
 }
 
 .resume-box{
-  display: flex;
+  display: none;
   background-color: rgb(36, 36, 36);
   margin: 150px auto;
   padding: 50px;
@@ -111,12 +111,12 @@ body{
   justify-content: center;
 }
 
-.gif-background{
+/*.gif-background{
   background-image: url(Images/late-night-coding.gif);
   background-size: cover;
   background-position: center;
   height: 225px;
-}
+}*/
 
 .button-styling{
   background-color: rgb(43, 42, 42);
@@ -164,6 +164,7 @@ body{
   justify-content: center;
   align-items: center;
   width: 42%;
+  margin: auto;
   background-image: url(Images/late-night-coding.gif);
   opacity: 0.72;
   background-size: cover;
