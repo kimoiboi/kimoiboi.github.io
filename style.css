@@ -159,17 +159,21 @@ body{
 }
 
 .contact-form{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 42%;
   margin: auto;
   background-image: url(Images/late-night-coding.gif);
-  opacity: 0.72;
+  opacity: 0;
   background-size: cover;
   background-position: center;
   border-radius: 25px;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s ease, opacity 0.5s ease;
+}
+
+.email-wrapper:hover .contact-form{
+  height: 420px;
+  opacity: 0.9;
 }
 
 input{
