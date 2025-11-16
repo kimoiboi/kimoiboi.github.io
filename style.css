@@ -175,7 +175,7 @@ body{
   transition: height 1.5s ease, opacity 1.5s ease;
 }
 
-.email-button:hover .contact-form{
+.email-wrapper:hover .contact-form{
   max-height: 900px;
   opacity: 0.75;
 }
