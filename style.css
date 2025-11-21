@@ -159,16 +159,20 @@ body{
 }
 
 #contact-form{
-  display: none;
-  visibility: hidden; 
+  display: flex;
+  visibility: hidden;
   flex-direction: column;
   justify-content: center;
   margin: auto;
   align-items: center;
-  width: 42%;
+  max-width: 42%;
   background-image: url(Images/late-night-coding.gif);
   opacity: 0;
-  transition: 1s;
+  transform-origin: top center;
+  transform: scaleY(0);
+  overflow: hidden;
+  pointer-events: none;
+  transition: 1s ease;
   background-size: cover;
   background-position: center;
   border-radius: 25px;
@@ -184,6 +188,8 @@ body{
   width: 42%;
   background-image: url(Images/late-night-coding.gif);
   opacity: 0.735;
+  transform: scaleY(1);
+  pointer-events: auto;
   background-size: cover;
   background-position: center;
   border-radius: 25px;
