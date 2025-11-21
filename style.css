@@ -176,6 +176,7 @@ body{
 
 #contact-form.open{
   display: flex;
+  visibility: visible;
   flex-direction: column;
   justify-content: center;
   margin: auto;
