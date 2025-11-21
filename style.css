@@ -147,6 +147,7 @@ body{
 
 #contact-section{
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
   border-top:2px ridge rgb(255, 255, 255);
@@ -159,7 +160,7 @@ body{
 }
 
 #contact-form{
-  display: flex;
+  position: absolute;
   visibility: hidden;
   flex-direction: column;
   justify-content: center;
