@@ -160,6 +160,7 @@ body{
 
 #contact-form{
   display: none;
+  visibility: hidden;
   flex-direction: column;
   justify-content: center;
   margin: auto;
