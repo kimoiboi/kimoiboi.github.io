@@ -89,7 +89,7 @@ body{
 }
 
 .resume-box{
-  display: none;
+  display: flex;
   background-color: rgb(36, 36, 36);
   margin: 150px auto;
   padding: 50px;
@@ -111,12 +111,12 @@ body{
   justify-content: center;
 }
 
-/*.gif-background{
+.gif-background{
   background-image: url(Images/late-night-coding.gif);
   background-size: cover;
   background-position: center;
   height: 225px;
-}*/
+}
 
 .button-styling{
   background-color: rgb(43, 42, 42);
@@ -158,26 +158,39 @@ body{
   border-radius: 30px;
 }
 
-.contact-form{
+#contact-form{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: auto;
   align-items: center;
   width: 42%;
-  margin: auto;
   background-image: url(Images/late-night-coding.gif);
   opacity: 0;
+  transition: 1s;
   background-size: cover;
   background-position: center;
   border-radius: 25px;
-  overflow: hidden;
-  max-height: 0;
-  transition: height 1.5s ease, opacity 1.5s ease;
 }
 
-.email-wrapper:hover .contact-form{
-  max-height: 900px;
-  opacity: 0.75;
+#contact-form.open{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  width: 42%;
+  background-image: url(Images/late-night-coding.gif);
+  opacity: 0.735;
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+}
+
+#email-style{
+  font-size: 41px;
+  color: white;
+  align-items: center;
 }
 
 input{
