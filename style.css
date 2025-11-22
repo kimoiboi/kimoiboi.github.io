@@ -151,6 +151,7 @@ body{
   align-items: center;
   border-top:2px ridge rgb(255, 255, 255);
   padding: 30px;
+  margin-top: 28px;
 }
 
 .circle-border{
@@ -231,4 +232,21 @@ textarea{
   background-color: transparent;
   border-radius: 10px;
   color: white;
+}
+
+.project-box{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.project-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 25px;
 }
