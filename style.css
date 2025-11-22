@@ -237,3 +237,102 @@ textarea{
   align-items: center;
   padding: 25px;
 }
+
+/* Entire Section Below this message is what was used to create the mobile layout */
+img, .recent-post-box img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .position{
+    width: 85%;
+    line-height: 1.8;
+    margin: 0 auto;
+  }
+
+  .navbar ul{
+    flex-direction: row;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .resume-box{
+    margin: 80px 12px;
+    padding: 28px;
+    width: auto;
+  }
+
+  .recent-post-box{
+    width: 95%;
+    height: auto;
+    max-width: 720px;
+    padding: 12px;
+  }
+
+  .project-box, .project-row{
+    width: 95%;
+    padding: 16px;
+    max-width: 960px;
+  }
+}
+
+/* Narrow screens / phones */
+@media (max-width: 480px) {
+  html { font-size: 15px; }
+
+  h1 { margin: 16px; font-size: 1.6rem; }
+  h3 { margin: 16px; font-size: 1.1rem; }
+
+  .position{
+    width: 94%;
+    line-height: 1.6;
+    font-size: 15px;
+  }
+
+  .navbar ul{
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+  }
+
+  .navbar li a{
+    padding: 10px 12px;
+  }
+
+  .resume-box{
+    margin: 40px 10px;
+    padding: 16px;
+    width: auto;
+  }
+
+  .recent-post-box{
+    width: 96%;
+    padding: 10px;
+    border-radius: 14px;
+  }
+
+  .project-row{
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  #contact-form, #contact-form.open{
+    width: 94%;
+    max-width: 620px;
+  }
+
+  #contact-section{ padding: 18px; }
+
+  #email-style{ font-size: 48px; }
+
+  input, textarea{ width: 100%; box-sizing: border-box; }
+
+  .position, .project-box, .recent-post-box{ margin: 8px auto; }
+}
+
+@media (min-width: 1200px) {
+  .position{ width: 55%; }
+}
