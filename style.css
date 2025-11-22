@@ -153,39 +153,34 @@ body{
 
 #contact-form{
   display: flex;
-  visibility: hidden;
   flex-direction: column;
   justify-content: center;
-  margin: auto;
   align-items: center;
+  margin: 0 auto;
   max-width: 42%;
-  background-image: url(Images/late-night-coding.gif);
+  max-height: 0;
+  padding: 0;
+  visibility: hidden;
   opacity: 0;
   transform-origin: top center;
   transform: scaleY(0);
   overflow: hidden;
   pointer-events: none;
-  transition: 1s ease;
+  transition: max-height 0.55s ease, padding 0.4s ease, opacity 0.35s ease, transform 0.35s ease;
+  background-image: url(Images/late-night-coding.gif);
   background-size: cover;
   background-position: center;
   border-radius: 25px;
 }
 
 #contact-form.open{
-  display: flex;
   visibility: visible;
-  flex-direction: column;
-  justify-content: center;
-  margin: auto;
-  align-items: center;
-  width: 42%;
-  background-image: url(Images/late-night-coding.gif);
+  max-height: 900px; 
+  padding: 18px;
   opacity: 0.735;
   transform: scaleY(1);
   pointer-events: auto;
-  background-size: cover;
-  background-position: center;
-  border-radius: 25px;
+  width: 42%;
 }
 
 #email-style{
