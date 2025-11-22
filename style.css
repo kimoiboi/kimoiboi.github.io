@@ -124,13 +124,6 @@ body{
   border-radius: 10px;
 }
 
-.blog{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom:2px ridge rgb(255, 255, 255);
-}
-
 .recent-post-box{
   display: flex;
   flex-direction: column;
