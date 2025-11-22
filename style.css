@@ -83,7 +83,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  background-color: #0b1220;
+  background-color: #000000;
   font-family: 'Computer', system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   min-height: 100vh;
 }
@@ -166,7 +166,7 @@ body{
   transform: scaleY(0);
   overflow: hidden;
   pointer-events: none;
-  transition: max-height 0.55s ease, padding 0.4s ease, opacity 0.35s ease, transform 0.35s ease;
+  transition: 1s ease;
   background-image: url(Images/late-night-coding.gif);
   background-size: cover;
   background-position: center;
