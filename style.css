@@ -16,6 +16,20 @@ html{
   align-items: center;
 }
 
+/* About section layout (mobile-first). Place image to the right on larger screens */
+.about-content{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: stretch;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 12px;
+}
+.about-text{ order: 1; }
+.about-image{ order: 2; display: block; }
+.about-image img{ max-width: 100%; height: auto; border-radius: 10px; display: block; }
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -238,7 +252,7 @@ textarea{
   padding: 25px;
 }
 
-/* Entire Section Below this message is what was used to create the mobile layout */
+/* Entire Section Below this message is what was used to create the mobile layout (Alot of help with AI)*/
 img, .recent-post-box img {
   max-width: 100%;
   height: auto;
@@ -279,12 +293,20 @@ img, .recent-post-box img {
   }
 }
 
-/* Narrow screens / phones */
 @media (max-width: 480px) {
-  html { font-size: 15px; }
+  html{ 
+    font-size: 15px; 
+  }
 
-  h1 { margin: 16px; font-size: 1.6rem; }
-  h3 { margin: 16px; font-size: 1.1rem; }
+  h1{ 
+    margin: 16px; 
+    font-size: 1.6rem;
+  }
+
+  h3{ 
+    margin: 16px; 
+    font-size: 1.1rem; 
+  }
 
   .position{
     width: 94%;
@@ -293,9 +315,18 @@ img, .recent-post-box img {
   }
 
   .navbar ul{
-    flex-direction: column;
-    gap: 6px;
+    flex-direction: row;
+    gap: 8px;
     align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 6px 8px;
+    white-space: nowrap;
+  }
+
+  .navbar li{ 
+    flex: 0 0 auto; 
   }
 
   .navbar li a{
@@ -324,13 +355,21 @@ img, .recent-post-box img {
     max-width: 620px;
   }
 
-  #contact-section{ padding: 18px; }
+  #contact-section{ 
+    padding: 18px; 
+  }
 
-  #email-style{ font-size: 48px; }
+  #email-style{ 
+    font-size: 48px; 
+  }
 
-  input, textarea{ width: 100%; box-sizing: border-box; }
+  input, textarea{ 
+    width: 100%; box-sizing: border-box; 
+  }
 
-  .position, .project-box, .recent-post-box{ margin: 8px auto; }
+  .position, .project-box, .recent-post-box{ 
+    margin: 8px auto; 
+  }
 }
 
 @media (min-width: 1200px) {
