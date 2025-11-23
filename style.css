@@ -16,28 +16,15 @@ html{
   align-items: center;
 }
 
-/* About section layout (mobile-first). Place image to the right on larger screens */
-.about-content{
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  align-items: stretch;
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 12px;
-}
-.about-text{ order: 1; }
-.about-image{ order: 2; display: block; }
-.about-image img{ max-width: 100%; height: auto; border-radius: 10px; display: block; }
-
 .navbar {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 18px;
   background-color: transparent;
+  border-bottom: 1.5px ridge white;
   padding: 2px;
-  position: sticky;
+  position: static;
   top: 0;
 }
 
@@ -155,7 +142,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top:2px ridge rgb(255, 255, 255);
+  border-top: 1.5px ridge white;
   padding: 30px;
   margin-top: 28px;
 }
@@ -364,7 +351,8 @@ img, .recent-post-box img {
   }
 
   input, textarea{ 
-    width: 100%; box-sizing: border-box; 
+    width: 100%; 
+    box-sizing: border-box; 
   }
 
   .position, .project-box, .recent-post-box{ 
