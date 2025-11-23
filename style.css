@@ -163,10 +163,10 @@ body{
   margin: 30px;
 }
 
-/*.circle-to-nav i{ 
+.circle-to-nav i{ 
   font-size: 16px; 
   color: white; 
-}*/
+}
 
 #contact-form{
   display: flex;
