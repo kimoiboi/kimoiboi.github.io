@@ -16,7 +16,7 @@ html{
   align-items: center;
 }
 
-.navbar {
+#navbar {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -36,7 +36,7 @@ html{
     font-display: swap;
 }
 
-.navbar ul{
+#navbar ul{
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -44,7 +44,7 @@ html{
   justify-content: space-around;
 }
 
-.navbar li a{
+#navbar li a{
   display: block;
   padding: 14px 16px;
   text-decoration: none;
@@ -152,6 +152,22 @@ body{
   border-radius: 30px;
 }
 
+.circle-to-nav{
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: white;
+  border: 1.5px solid white;
+  box-shadow: 1px 0.25px 17px 2px white;
+  margin: 30px;
+}
+
+/*.circle-to-nav i{ 
+  font-size: 16px; 
+  color: white; 
+}*/
+
 #contact-form{
   display: flex;
   flex-direction: column;
@@ -239,9 +255,6 @@ textarea{
   padding: 25px;
 }
 
-textarea::placeholder{
-    color: white;
-}
 /* Entire Section Below this message is what was used to create the mobile layout (Alot of help with AI)*/
 img, .recent-post-box img {
   max-width: 100%;
