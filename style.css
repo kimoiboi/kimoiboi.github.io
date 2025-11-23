@@ -103,11 +103,33 @@ body{
 }
 
 .resume-box-info{
-  border: 1.5px solid white; 
-  padding: 7.5px; 
+  border: inset;
+  padding: 10px; 
   border-radius: 25px; 
-  margin: 5px;
+  margin: 30px; 
   text-align: left;
+
+  /* AI written code below */
+  animation: glowPulse 3s linear infinite;
+}
+
+/* Code below written with AI, was looking for specific border animation for website appeal */
+@keyframes glowPulse {
+  0% {
+    box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.6);
+  }
+  25% {
+    box-shadow: 0 0 12px 3px rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 16px 4px rgba(255, 255, 255, 1);
+  }
+  75% {
+    box-shadow: 0 0 12px 3px rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.6);
+  }
 }
 
 .skill-amount{
