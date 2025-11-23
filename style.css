@@ -294,6 +294,9 @@ img, .recent-post-box img {
     margin: 16px; 
     font-size: 1.1rem; 
   }
+::placeholder{
+    color: white;
+}
 
   .position{
     width: 94%;
