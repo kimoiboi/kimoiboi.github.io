@@ -271,7 +271,7 @@ img, .recent-post-box img {
     margin: 0 auto;
   }
 
-  .navbar ul{
+  #navbar ul{
     flex-direction: row;
     gap: 12px;
     flex-wrap: wrap;
@@ -319,7 +319,7 @@ img, .recent-post-box img {
     font-size: 15px;
   }
 
-  .navbar ul{
+  #navbar ul{
     flex-direction: row;
     gap: 8px;
     align-items: center;
@@ -330,11 +330,11 @@ img, .recent-post-box img {
     white-space: nowrap;
   }
 
-  .navbar li{ 
+  #navbar li{ 
     flex: 0 0 auto; 
   }
 
-  .navbar li a{
+  #navbar li a{
     padding: 10px 12px;
   }
 
