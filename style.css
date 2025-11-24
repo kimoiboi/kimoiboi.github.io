@@ -26,11 +26,12 @@ html{
   padding: 2px;
   position: static;
   top: 0;
+  font-size: 22px;
 }
 
 @font-face{
     font-family: 'Computer';
-    src: url('fonts/Computer.woff') format('woff');
+    src: url('fonts/Space.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -61,22 +62,24 @@ span{
 
 p{
   color: rgb(255, 255, 255);
-  font-size: 15.5px;
+  font-size: 20.2px;
 }
 
 h1{
-    margin: 28px;
-    color: rgb(255, 255, 255);
+  font-size: 43px;
+  margin: 28px;
+  color: rgb(255, 255, 255);
 }
 
 h3{
-    margin: 28px;
-    color: rgb(255, 255, 255);
+  font-size: 35px;
+  margin: 28px;
+  color: rgb(255, 255, 255);
 }
 
 h4{
-    text-align: center;
-    color: rgb(255, 255, 255);
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 body{
