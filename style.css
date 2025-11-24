@@ -310,7 +310,7 @@ textarea{
   padding: 25px;
 }
 
-/* Entire Section Below this message is what was used to create the mobile layout (Alot of help with AI)*/
+/* Entire Section Below this message is what was used to create the mobile layout (Most of help with AI)*/
 img, .recent-post-box img {
   max-width: 100%;
   height: auto;
@@ -433,4 +433,58 @@ img, .recent-post-box img {
 
 @media (min-width: 1200px) {
   .position{ width: 55%; }
+}
+
+@media (max-width: 900px) {
+  .resume-container {
+    flex-direction: column;      
+    align-items: center;
+    margin: 16px 8px;
+    gap: 12px;
+  }
+
+  .resume-box,
+  .resume-box-2 {
+    width: 100%;
+    max-width: 700px;
+    margin: 12px auto;
+  }
+
+  .resume-box-2 {
+    text-align: left;         
+  }
+}
+
+@media (max-width: 480px) {
+  .resume-container {
+    margin: 8px 4px;
+  }
+
+  .resume-box,
+  .resume-box-2 {
+    padding: 16px 14px;
+    margin: 10px auto;
+  }
+
+  .resume-box img {
+    max-width: 140px;
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto 12px;
+  }
+
+  .resume-box-info {
+    margin: 14px 0;
+    padding: 10px;
+  }
+
+  .timeline {
+    height: auto;
+    min-height: 120px;
+  }
+
+  .resume-box-2 > br {
+    display: none;
+  }
 }
