@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Karim Elgendi Portfolio </title>
+    <title>Karim Elgendi · Resume</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/1eeb4b521d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav id ="navbar">
+    <nav id="navbar">
         <ul>
             <li><a href="index.html">About</a></li>
             <li><a href="projects.html">Projects</a></li>
@@ -19,143 +19,178 @@
         </ul>
     </nav>
 
-    <div class ="resume-container">
-        <div class ="resume-box" style ="flex-direction: column;">
-            <img src ="Images/profile-picture.jpg" style ="border-radius: 15%;">
+    <main class="resume-layout">
+        <aside class="resume-sidebar">
+            <div class="resume-photo-wrapper">
+                <img src="Images/profile-picture.jpg" alt="Profile picture of Karim Elgendi" class="resume-photo">
+            </div>
 
-            <h4> Karim Elgendi </h4>
+            <header class="resume-header">
+                <h1 class="resume-name">Karim Elgendi</h1>
+                <p class="resume-title">Backend & Aspiring Embedded Systems Engineer</p>
+            </header>
 
-            <p style ="font-size: 12px;"> Backend & Aspiring Embedded Systems Engineer </p>
-            <hr style ="width: 68%;">
+            <section class="resume-section">
+                <h2 class="resume-section-title">Contact Info</h2>
+                <ul class="resume-list">
+                    <li>
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>571-393-9869</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope"></i>
+                        <a href="#contact-form" style ="text-decoration: none;">elgendik3@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-globe-americas"></i>
+                        <a href="https://kimoiboi.github.io/index.html" style ="text-decoration: none;" target="_blank" rel="noopener">
+                            kimoiboi.github.io
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fas fa-search-location"></i>
+                        <span>Washington, D.C., Virginia</span>
+                    </li>
+                </ul>
+            </section>
 
-            <p style ="font-size: 12px; text-align: left;"> Contact Info </p>
-            <div class ="resume-box-info">
-                <div style ="text-align: left;">
-                    <i class ="fas fa-mobile-alt" style ="color: white;"></i><b><span style ="font-size: 12px; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;"> 571-393-9869 </span></b>
+            <section class="resume-section">
+                <h2 class="resume-section-title">Education</h2>
+                <div class="resume-edu-item">
+                    <p class="resume-edu-dates">2022 – 2026 (Expected)</p>
+                    <p class="resume-edu-degree">B.S. in Applied Computer Science</p>
+                    <p class="resume-edu-school">George Mason University</p>
                 </div>
-                <div style ="text-align: left;">
-                    <a href ="#contact-form" style ="text-decoration: none;"><i class ="fa fa-envelope" style ="color: white;"></i><b><span style ="font-size: 12px; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;"> elgendik3@gmail.com </span></b></a>
+                <div class="resume-edu-item">
+                    <p class="resume-edu-dates">2017 – 2021</p>
+                    <p class="resume-edu-degree">Advanced High School Diploma</p>
+                    <p class="resume-edu-school">Woodbridge Senior High School</p>
                 </div>
-                <div style ="text-align: left;">
-                    <a href ="https://kimoiboi.github.io/index.html" style ="text-decoration: none;"><i class ="fas fa-globe-americas" style ="color: white;"></i><b><span style ="font-size: 12px; text-decoration: none; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;"> kimoiboi.github.io </span></b></a>
+            </section>
+
+            <section class="resume-section">
+                <h2 class="resume-section-title">Languages</h2>
+                <ul class="resume-list">
+                    <li>
+                        <span>English</span>
+                        <div class="skill-amount"><span class="skill-fill" style ="width: 100%;"></span></div>
+                    </li>
+                    <li>
+                        <span>Arabic</span>
+                        <div class="skill-amount"><span class="skill-fill" style="width: 95.3%;"></span></div>
+                    </li>
+                    <li>
+                        <span>French</span>
+                        <div class="skill-amount"><span class="skill-fill" style="width: 13.7%;"></span></div>
+                    </li>
+                    <li>
+                        <span>Spanish</span>
+                        <div class="skill-amount"><span class="skill-fill" style="width: 20.6%;"></span></div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="resume-section">
+                <h2 class="resume-section-title">Relevant Courses</h2>
+                <ul class="tag-list">
+                    <li><span> ⟡ Data Structures & Analysis of Algorithms </span></li>
+                    <li><span> ⟡ Operating Systems </span></li>
+                    <li><span> ⟡ Databases </span></li>
+                    <li><span> ⟡ Software Architectures & OOP Software Design </span></li>
+                    <li><span> ⟡ Computer Communications & Networking </span></li>
+                    <li><span> ⟡ Concurrent & Distributed Systems </span></li>
+                </ul>
+            </section>
+        </aside>
+
+        <section class="resume-main">
+            <section class="resume-section">
+                <h2 class="resume-section-title">Profile</h2>
+                <p class="resume-body-text">
+                    During my initial year of college, I started out as a biology major, hoping to become an oncologist and fully expecting to enjoy the field.
+                    But as time went on, I realized it wasn’t the path I truly wanted to follow as I started thinking about the long years of schooling
+                    and how little the work actually excited me day to day. After spending a lot of time researching the different majors and programs offered 
+                    while reflecting on what I enjoy, I found myself becoming more and more drawn to Computer Science.
+                </p>
+                <p class="resume-body-text">
+                    I loved the idea of understanding how systems work on a deeper level, strengthening my abstract thinking, and literally giving instructions to a
+                    computer to make it do something I imagined. The more I explored it, the more it felt like being a kid in a candy store. That curiosity ultimately
+                    pushed me to switch my major to Applied Computer Science with a focus in Software Engineering, and it’s been one of the best decisions I’ve made.
+                </p>
+                <p class="resume-body-text">
+                    Since then, I’ve especially developed an interest in embedded programming, where I get to combine low-level hardware interaction with software design.
+                    It’s the perfect blend of challenge and creativity, and it feels aligned with both my curiosity and the kind of long-term career I want to build.
+                </p>
+            </section>
+
+            <section class="resume-section">
+                <h2 class="resume-section-title">Experience</h2>
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <h3 class="timeline-role">SWE / Embedded Projects</h3>
+                        <p class="timeline-meta">Personal & Academic · 2022 – Present</p>
+                        <ul class="timeline-list">
+                            <!--No Information Added Yet-->
+                        </ul>
+                    </article>
                 </div>
-                <div style ="text-align: left;">
-                    <i class ="fas fa-search-location" style ="color: white;"></i><b><span style ="font-size: 10.7px; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;"> Washington, D.C., Virginia </span></b>
-                </div>
-            </div>
-            <br>
-            <p style ="font-size: 12px; text-align: left;"> Education </p>
-            <div class ="resume-box-info">
-                <b><p style ="font-size: 12px; text-align: left; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;"> Graduation: 2022 - 2026 </p></b>
-                <b><p style ="font-size: 14px; text-align: left; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;"> Undergraduate Degree in Applied Computer Science B.S. </p></b>
-                <p style ="font-size: 12px; text-align: left; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;"> School: George Mason University </p>
-            </div>
-            <div class ="resume-box-info">
-                <b><p style ="font-size: 12px; text-align: left; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;"> Graduation: 2017 - 2021 </p></b>
-                <b><p style ="font-size: 14px; text-align: left; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;"> Advanced High School Diploma </p></b>
-                <p style ="font-size: 12px; text-align: left; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;"> School: Woodbridge Senior High School </p>
-            </div>
-            <br>
-            <p style ="font-size: 12px; text-align: left;"> Languages </p>
-            <div class ="resume-box-info" style ="padding: 12px;">
-                <b><p style ="font-size: 12px; text-align: left; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;"> English </p></b>
-                <div class ="skill-amount" style ="background: linear-gradient(to right, white 100%, transparent 0%)"></div>
-                <b><p style ="font-size: 12px; text-align: left; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;"> Arabic </p></b>
-                <div class ="skill-amount" style ="background: linear-gradient(to right, white 96%, transparent 0%)"></div>
-                <b><p style ="font-size: 12px; text-align: left; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;"> French </p></b>
-                <div class ="skill-amount" style ="background: linear-gradient(to right, white 17%, transparent 0%)"></div>
-                <b><p style ="font-size: 12px; text-align: left; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;"> Spanish </p></b>
-                <div class ="skill-amount" style ="background: linear-gradient(to right, white 22%, transparent 0%)"></div>
-            </div>
-            <br>
+            </section>
+        </section>
+    </main>
 
-
-            <p style ="font-size: 12px; text-align: left;"> Relevant Courses </p>
-            <div class ="resume-box-info">
-                <b><p style ="font-size: 12px; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;">⟡ Data Structures & Analysis of Algorithms </p></b>
-                <b><p style ="font-size: 12px; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;">⟡ Operating Systems </p></b>
-                <b><p style ="font-size: 12px; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;">⟡ Databases </p></b>
-                <b><p style ="font-size: 12px; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;">⟡ Software Architectures & OOP Software Design </p></b>
-                <b><p style ="font-size: 12px; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;">⟡ Computer Communications & Networking </p></b>
-                <b><p style ="font-size: 12px; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;">⟡ Concurrent & Distributed Systems </p></b>
-            </div>
-            <br>
-        </div>
-
-        <div class ="resume-box-2">
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <p style ="font-size: 12px; text-align: left;"> Profile </p>
-            <div class ="resume-box-info">
-                <b><p style ="font-size: 12px; text-align: left; line-height: 2.0;"> During my first year of college, I started out as a biology major, hoping to become an oncologist and fully expecting to enjoy the field. But as time went on, I realized it wasn’t the path I truly wanted to follow—especially once I started thinking about the long years of schooling and how little the work actually excited me day to day. After spending a lot of time researching different disciplines and honestly reflecting on what I enjoy, I found myself becoming more and more drawn to Computer Science. I loved the idea of understanding how systems work on a deeper level, strengthening my abstract thinking, and literally giving instructions to a computer to make it do something I imagined. The more I explored it, the more it felt like being a kid in a candy store. That curiosity ultimately pushed me to switch my major to Applied Computer Science with a focus in Software Engineering, and it’s been one of the best decisions I’ve made. Since then, I’ve especially developed an interest in embedded programming, where I get to combine low-level hardware interaction with software design. It’s the perfect blend of challenge and creativity, and it feels aligned with both my curiosity and the kind of long-term career I want to build. </p></b>
-            </div>
-            <br>
-            <br>
-
-            <p style ="font-size: 12px; text-align: left;"> Experience </p>
-            <div class ="timeline">
-                <b><p style ="font-size: 12px; text-align: left;">   </p></b>
-            </div>
-            <br>
-
-            <p style ="font-size: 12px; text-align: left;"> Skills </p>
-            <div class ="carousel">
-                <div aria-hidden class ="group">
-                    <div class ="skills-card">HTML</div>
-                    <div class ="skills-card">CSS</div>
-                    <div class ="skills-card">JavaScript</div>
-                    <div class ="skills-card">Java</div>
-                    <div class ="skills-card">SQL</div>
-                    <div class ="skills-card">C++</div>
-                    <div class ="skills-card">Assembly</div>
-                    <div class ="skills-card">Dart</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id ="contact-section">
-        <p class ="links">
-            <a href="https://github.com/kimoiboi" style ="text-decoration: none;" target ="_blank" rel="noopener"><i class="fa fa-github" style="font-size: 41px; color: white; align-items: center;"></i></a>
+    <div id="contact-section">
+        <p class="links">
+            <a href="https://github.com/kimoiboi" style="text-decoration: none;" target="_blank" rel="noopener">
+                <i class="fa fa-github" style="font-size: 41px; color: white; align-items: center;"></i>
+            </a>
             &nbsp;•&nbsp;
-            <a href="https://www.linkedin.com/in/karim-elgendi-258145258/" style ="text-decoration: none;" target="_blank" rel="noopener"><i class='fab fa-linkedin' style='font-size: 41px; align-items: center;'></i></a>
+            <a href="https://www.linkedin.com/in/karim-elgendi-258145258/" style="text-decoration: none;" target="_blank" rel="noopener">
+                <i class="fab fa-linkedin" style="font-size: 41px; align-items: center;"></i>
+            </a>
             &nbsp;•&nbsp;
-            <a href="#contact-form" style ="text-decoration: none;"><i class="fa fa-envelope" id ="email-style"></i></a>
+            <a href="#contact-form" style="text-decoration: none;">
+                <i class="fa fa-envelope" id="email-style"></i>
+            </a>
         </p>
     </div>
 
-    <div id ="contact-form">
-            <form>
-                <p style ="font-size: 13px;">
-                    Howdy — I'll get back to you ASAP.
-                </p>
+    <div id="contact-form">
+        <form>
+            <p style="font-size: 13px;">
+                Howdy — I'll get back to you ASAP.
+            </p>
+            <div>
                 <div>
                     <div>
-                        <div>
-                            <label for ="userName">Name</label>
-                            <input type ="text" name ="userName" placeholder ="Your name" autocomplete ="off" required>
-                        </div>
-                        <div>
-                            <label for ="emailAddress">Email</label>
-                            <input type ="text" name ="emailAddress" placeholder ="you@example.com" autocomplete ="off" required>
-                        </div>
+                        <label for="userName">Name</label>
+                        <input type="text" name="userName" placeholder="Your name" autocomplete="off" required>
                     </div>
                     <div>
-                        <label for ="sendMessage">Message</label>
-                        <textarea rows ="12" cols ="60" name ="sendMessage" placeholder ="Write note here..." autocomplete ="off" required></textarea>
+                        <label for="emailAddress">Email</label>
+                        <input type="text" name="emailAddress" placeholder="you@example.com" autocomplete="off" required>
                     </div>
-                    <button id ="button-style">Send<i class="far fa-paper-plane" style ="color: white;"></i></button>
-                </div> 
-            </form>
-        </div>
+                </div>
+                <div>
+                    <label for="sendMessage">Message</label>
+                    <textarea rows="12" cols="60" name="sendMessage" placeholder="Write note here..." autocomplete="off" required></textarea>
+                </div>
+                <button id="button-style">Send <i class="far fa-paper-plane" style="color: white;"></i></button>
+            </div>
+        </form>
+    </div>
 
-        <a href="#navbar" aria-label="Back to top"><div class ="circle-to-nav"><i class='far fa-hand-point-up' style ="font-size: 21.3px;"></i></div></a>
+    <a href="#navbar" aria-label="Back to top">
+        <div class="circle-to-nav">
+            <i class="far fa-hand-point-up"></i>
+        </div>
+    </a>
 
     <footer>
-        <p style = "font-size: 12.3px; text-align: center;">&copy; 2025 Karim Elgendi. All rights reserved.</p>
+        <p style="font-size: 12.3px; text-align: center;">&copy; 2025 Karim Elgendi. All rights reserved.</p>
     </footer>
 
     <script>
-        document.getElementById("email-style").addEventListener("click", function (){
+        document.getElementById("email-style").addEventListener("click", function () {
             document.getElementById("contact-form").classList.toggle("open");
         });
     </script>
