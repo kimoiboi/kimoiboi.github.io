@@ -216,7 +216,7 @@ body{
   margin: 0;
 }
 
-.skill-amount {
+.skill-amount{
   position: relative;
   display: inline-block;
   width: 150px;
@@ -227,57 +227,68 @@ body{
   margin-left: 8px;
 }
 
-.skill-fill {
+.skill-fill{
   display: block;
   height: 100%;
   width: 0;
   background: linear-gradient(to right, white, white);
 }
 
-.tag-list {
+.tag-list{
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.tag-list li {
+.tag-list li{
   font-size: 0.85rem;
   padding: 4px 0;
   line-height: 1.4;
 }
 
-.timeline {
+.timeline{
   position: relative;
   padding-left: 16px;
   border-left: 2px solid white;
 }
 
-.timeline-item {
+.timeline-item::before{
+  content: '';
+  position: absolute;
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: white;
+  border-radius: 50%;
+  left: 0;
+  transform: translateX(-57%);
+}
+
+.timeline-item{
   margin-bottom: 14px;
 }
 
-.timeline-item:last-child {
+.timeline-item:last-child{
   margin-bottom: 0;
 }
 
-.timeline-role {
+.timeline-role{
   font-size: 1rem;
   margin: 0 0 2px;
 }
 
-.timeline-meta {
+.timeline-meta{
   font-size: 0.8rem;
   opacity: 0.8;
   margin: 0 0 6px;
 }
 
-.timeline-list {
+.timeline-list{
   list-style: disc;
   margin: 0 0 0 16px;
   padding: 0;
 }
 
-.timeline-list li {
+.timeline-list li{
   font-size: 0.9rem;
   margin-bottom: 4px;
 }
@@ -310,7 +321,7 @@ body{
 }
 */
 
-.recent-post-box {
+.recent-post-box{
   display: flex;
   flex-direction: column;
   border: 2px solid white;
@@ -324,7 +335,7 @@ body{
   border-radius: 25px;
 }
 
-#contact-section {
+#contact-section{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -333,12 +344,12 @@ body{
   margin-top: 28px;
 }
 
-.circle-border {
+.circle-border{
   border: 2px solid rgb(255, 255, 255);
   border-radius: 30px;
 }
 
-.circle-to-nav {
+.circle-to-nav{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -351,12 +362,12 @@ body{
   margin: 30px;
 }
 
-.circle-to-nav i {
+.circle-to-nav i{
   font-size: 16px;
   background-color: transparent;
 }
 
-#contact-form {
+#contact-form{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -378,7 +389,7 @@ body{
   border-radius: 25px;
 }
 
-#contact-form.open {
+#contact-form.open{
   visibility: visible;
   max-height: 900px;
   padding: 18px;
@@ -388,19 +399,19 @@ body{
   width: 42%;
 }
 
-#email-style {
+#email-style{
   font-size: 41px;
   color: white;
   align-items: center;
 }
 
-#button-style {
+#button-style{
   background-color: transparent;
   color: white;
   border-radius: 25px;
 }
 
-input {
+input{
   background-color: transparent;
   border-left: 1px solid black;
   padding: 3px;
@@ -411,7 +422,7 @@ input {
   color: white;
 }
 
-label {
+label{
   color: rgb(255, 255, 255);
   font-size: 11.5px;
   display: flex;
@@ -420,13 +431,13 @@ label {
   padding: 5px;
 }
 
-textarea {
+textarea{
   background-color: transparent;
   border-radius: 10px;
   color: white;
 }
 
-.project-box {
+.project-box{
   display: flex;
   flex-direction: column;
   border: 2px solid white;
@@ -436,7 +447,7 @@ textarea {
   padding: 25px;
 }
 
-.project-row {
+.project-row{
   display: flex;
   flex-direction: row;
   align-items: center;
