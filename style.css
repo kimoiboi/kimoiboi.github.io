@@ -306,7 +306,7 @@ body{
 
 .carousel{
   margin: 24px 0;
-  width: 25%;
+  width: 30%;
   border: 2px solid rgba(255, 255, 255, 0.75);
   box-shadow: 0 0 16px 4.75px rgba(255, 255, 255, 0.35);
   border-radius: 18px;
@@ -528,6 +528,27 @@ img, .recent-post-box img {
     gap: 16px;
     margin-top: 24px;
   }
+
+  .resume-layout {
+    max-width: 100%;
+    padding: 0 8px;
+  }
+
+  .resume-sidebar, .resume-main {
+    margin: 0;
+  }
+
+  .technical-skills-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .carousel {
+    width: 100%;
+    max-width: 480px;
+    margin: 12px auto;
+  }
 }
 
 @media (max-width: 480px) {
@@ -614,6 +635,23 @@ img, .recent-post-box img {
 
   .resume-photo {
     max-width: 140px;
+  }
+
+  .resume-body-text {
+    font-size: 0.95rem;
+  }
+
+  .resume-section-title {
+    font-size: 1rem;
+  }
+
+  .technical-skills-section {
+    gap: 12px;
+  }
+
+  .carousel {
+    max-width: 100%;
+    margin: 10px 0;
   }
 }
 
