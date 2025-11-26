@@ -221,6 +221,12 @@ body{
   margin: 0;
 }
 
+.center-download-resume{
+  display: flex; 
+  justify-content: center; 
+  padding-top: 20px;
+}
+
 .skill-amount{
   position: relative;
   display: inline-block;
