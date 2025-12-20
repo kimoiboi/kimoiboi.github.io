@@ -336,7 +336,7 @@ body{
   justify-content: flex-start;
   gap: 1em;
   will-change: transform;
-  animation: slide 12s linear infinite; 
+  animation: slide 12.1s linear infinite; 
 }
 
 .skills-card{
@@ -358,7 +358,7 @@ body{
     transform: translateX(0);
   }
   to {
-    transform: translateX(-50.3%);
+    transform: translateX(-50.5%);
   }
 }
 
