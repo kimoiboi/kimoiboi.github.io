@@ -405,6 +405,20 @@ body{
   border-radius: 30px;
 }
 
+.download-resume-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: white;
+  border: 1.5px solid white;
+  box-shadow: 1px 0.25px 17px 2px white;
+  margin: 30px;
+
+}
+
 .circle-to-nav{
   display: flex;
   justify-content: center;
