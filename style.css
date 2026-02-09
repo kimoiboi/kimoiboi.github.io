@@ -423,6 +423,40 @@ body{
   background-color: transparent;
 }
 
+.circle-to-nav{
+  position: relative;
+  overflow: visible;
+}
+
+.circle-to-nav::after{
+  content: "Back to top";
+  position: absolute;
+  left: calc(100% + 15px);
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  background: rgba(255,255,255,0.06);
+  color: white;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 18px;
+  white-space: nowrap;
+  max-width: 0;
+  padding: 0 0;
+  overflow: hidden;
+  opacity: 0;
+  border: 1px solid rgba(255,255,255,0.15);
+  transition: max-width 0.28s ease, opacity 0.28s ease, padding 0.28s ease;
+  box-sizing: content-box;
+  pointer-events: none;
+}
+
+.circle-to-nav:hover::after{
+  max-width: 200px;
+  padding: 0 12px;
+  opacity: 1;
+}
+
 #contact-form{
   display: flex;
   flex-direction: column;
