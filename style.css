@@ -376,6 +376,21 @@ body{
   border-radius: 25px;
 }
 
+.recent-project-box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: row;
+  margin: auto;
+  padding: 25px;
+  height: 100%;
+  width: 500px;
+  justify-content: top;
+  align-items: top;
+  gap: 10px;
+  border-radius: 18px;
+}
+
+
 #contact-section{
   display: flex;
   justify-content: center;
@@ -493,6 +508,59 @@ textarea{
   flex-direction: row;
   align-items: center;
   padding: 25px;
+}
+
+/* From Uiverse.io by andrew-demchenk0 */ 
+.repo-card{
+  width: 100;
+  height: 350px;
+  border-radius: 20px;
+  box-shadow: 0 0 16px 4.75px rgba(255, 255, 255, 0.35);
+  display: flex;
+  flex-direction: column;
+  transition: .4s;
+  position: relative;
+  background-image: url(Images/repo-card-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  line-height: 19.25px;
+}
+
+.repo-card:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.35);
+}
+
+.repo-card-descr-box{
+  padding: 15px;
+  display: grid;
+}
+
+.repo-card-title{
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.repo-card-descr{
+  text-align: center;
+  font-size: 18.6px;
+}
+
+.repo-card-links{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+}
+
+.repo-card-links .link{
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.repo-card-links .link:hover{
+  text-decoration: underline;
 }
 
 /* Entire Section Below this message is what was used to create the mobile layout (Most of help with AI)*/
